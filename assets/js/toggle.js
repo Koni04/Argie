@@ -1,0 +1,27 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const body = document.body;
+    const toggleImg = document.getElementById('toggle-img');
+
+    function updateDarkMode() {
+        const savedMode = localStorage.getItem("darkMode");
+        if (savedMode !== null) {
+            body.classList.add("transition");
+            body.classList.toggle("dark-mode", savedMode === "true");
+            const isDarkMode = body.classList.contains("dark-mode");
+            toggleImg.src = isDarkMode ? 'https://uploads-ssl.webflow.com/655cd88e6249ce66bb02cfbc/655da2e5d85dfa7bc6a65215_moon.svg' : 'https://assets-global.website-files.com/655cd88e6249ce66bb02cfbc/655d0474630f5c8d9e34d057_sun.svg';
+        }
+    }
+
+    updateDarkMode();
+
+    function toggleMode() {
+        body.classList.add("transition");
+        body.classList.toggle("dark-mode");
+        const isDarkMode = body.classList.contains("dark-mode");
+        localStorage.setItem("darkMode", isDarkMode);
+        toggleImg.src = isDarkMode ? 'https://uploads-ssl.webflow.com/655cd88e6249ce66bb02cfbc/655da2e5d85dfa7bc6a65215_moon.svg' : 'https://assets-global.website-files.com/655cd88e6249ce66bb02cfbc/655d0474630f5c8d9e34d057_sun.svg';
+    }
+
+    const toggleButton = document.getElementById('toggle-mode');
+    toggleButton.addEventListener('click', toggleMode);
+});
