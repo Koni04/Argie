@@ -48,6 +48,7 @@ body.dark-mode #toggle-menu {
     color: white;
 }
 
+
 body.dark-mode .service-card,
 body.dark-mode .project-card,
 body.dark-mode #form
@@ -83,9 +84,6 @@ body.dark-mode footer {
     color: #fff;
 }
 
-body.dark-mode #click-btn {
-    background-color: red;
-}
 body.dark-mode #logo-name, span {
     color: red;
 }

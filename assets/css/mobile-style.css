@@ -139,7 +139,6 @@
     }
 
     .info h5 {
-        border-top: #ccc solid 1px;
         padding-top: 25px;
     }
 
@@ -213,7 +212,6 @@
         padding-bottom: 5px;
         letter-spacing: 1px
     }
-
 }
 
 /*------------------------------Desktop mode for Mobile Phone-----------------------------------*/
@@ -245,6 +243,25 @@
     }
 
     .session {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .left {
+        max-width: 150px;
+    }
+
+    .right {
+        max-width: 950px;
+    }
+
+    .contact-message {
+        width: 500px;
+    }
+}
+
+@media (min-width: 950px) {
+    
+    .session {
         grid-template-columns: repeat(2, auto);
         gap: 280px;
     }
@@ -260,4 +277,4 @@
     .contact-message {
         width: 500px;
     }
-}
+}   
