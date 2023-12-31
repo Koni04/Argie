@@ -217,45 +217,26 @@
 /*------------------------------Desktop mode for Mobile Phone-----------------------------------*/
 /* Media query for viewport width 1075px or below */
 @media (max-width: 1250px) {
-
-    /* ------------------------------------ Home ------------------------------------------- */
-
+    
     #home {
         min-height: 100%;
-        margin: 0 25px 0 25px;
+        padding-bottom: 15px;
     }
 
     #click-btn {
         margin-bottom: 25px;
     }
 
-    /* ------------------------------------ About ------------------------------------------- */
-
-    #about {
-        padding: 10px 50px 20px;
-    }
-    
-    /* ------------------------------------ Project ------------------------------------------- */
-
-    .project-card img {
-        max-width: 500px;
-        min-height: 250px;
+    .faq-container {
+        padding-top: 15px;
+        max-width: 100%;
+        margin: 15px;
     }
 
-    .session {
-        grid-template-columns: repeat(1, auto);
-    }
-
-    .left {
-        max-width: 150px;
-    }
-
-    .right {
-        max-width: 950px;
-    }
-
-    .contact-message {
-        width: 500px;
+    .selection-card-container {
+        display: grid;
+        grid-template-columns: none;
+        gap: 50px;
     }
 }
 
@@ -277,4 +258,5 @@
     .contact-message {
         width: 500px;
     }
-}   
+}
+
