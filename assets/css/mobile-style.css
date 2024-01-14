@@ -1,0 +1,262 @@
+/*---------------------------------- For Mobile Phone ---------------------------------------- */
+/* Media query for viewport width 950px or below */
+@media (max-width: 950px) {
+    
+    /*----------------------------- Responsive Navbar -----------------------------------------*/
+    header {
+        top: 0;
+        background-color: #f1f1f1;
+        border-radius: 0 0 15px 15px;
+    }
+
+    #logo-name {
+        display: absolute;
+        float: inline-start;
+    }
+
+    #click-btn {
+        margin-bottom: 25px;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #f1f1f1;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }   
+    
+    .sidenav a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #111;
+        display: block;
+        transition: 0.3s;
+        width: fit-content;
+    }
+    
+    .sidenav a:hover {
+        color: #111;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 5px;
+        font-size: 45px;
+        margin-left: 50px;
+    }
+
+    .menu-button {
+        margin-top: 20px;
+        float: right;
+        background: none;
+        visibility: visible;
+        border: none;
+        color: black;
+        font-size: 25px;
+        cursor: pointer;
+        padding: auto 50 50 10;
+        margin-right: 12px;
+    }
+
+    #nav-ul{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 12px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    li { 
+        list-style-type: none;
+        display: block;
+    }
+
+    .login-btn {
+        margin-right: 0;
+    }
+
+    .menu-button {
+        float: right;
+        background: none;
+        visibility: visible;
+        border: none;
+        color: black;
+        font-size: 25px;
+        cursor: pointer;
+        padding: auto 50 50 10;
+        margin-right: 12px;
+    }
+
+    nav ul{
+        float: none;
+    }
+
+    ul {
+        display: none;
+    }
+    
+    li { 
+        list-style-type: none;
+        display: block;
+    }
+
+    /*--------------------------------------- Home ---------------------------------------------*/
+
+    .container-home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    #home p{
+        margin: 10px;
+    }
+
+    #home {
+        padding: 85px 0 0 0;
+    }
+    /*--------------------------------------- About ---------------------------------------------*/
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-info .info div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info h5 {
+        padding-top: 25px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    #about {
+        margin: 10px;
+    }
+
+    /* ------------------------------------ Service ------------------------------------------- */
+
+    .service-container {
+        margin: 15px;
+    }
+
+    .service-card-container {
+        padding-bottom: 25px;
+        display: grid;
+        grid-template-columns: repeat(1 , auto); 
+    }
+
+    .service-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+
+    .service-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+    
+    .service-card img {
+        max-width: 150px;
+        min-height: 200px;
+    }
+
+    /* ------------------------------------ Project ------------------------------------------- */
+
+    .project-container {
+        margin: 15px;
+    }
+    
+    /* ------------------------------------ Contact ------------------------------------------- */
+
+    #contact {
+        margin: 15px;
+    }
+
+    .session {
+        gap: 60px;
+        margin: 0;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .contact-message p  {
+        display: inline-block;
+        padding-bottom: 5px;
+        letter-spacing: 1px
+    }
+}
+
+/*------------------------------Desktop mode for Mobile Phone-----------------------------------*/
+/* Media query for viewport width 1075px or below */
+@media (max-width: 1250px) {
+    
+    #home {
+        min-height: 100%;
+        padding-bottom: 15px;
+    }
+
+    #click-btn {
+        margin-bottom: 25px;
+    }
+
+    .faq-container {
+        padding-top: 15px;
+        max-width: 100%;
+        margin: 15px;
+    }
+
+    .selection-card-container {
+        display: grid;
+        grid-template-columns: none;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 950px) {
+    
+    .session {
+        grid-template-columns: repeat(2, auto);
+        gap: 280px;
+    }
+
+    .left {
+        max-width: 150px;
+    }
+
+    .right {
+        max-width: 950px;
+    }
+
+    .contact-message {
+        width: 500px;
+    }
+}
+
