@@ -226,13 +226,7 @@
     #click-btn {
         margin-bottom: 25px;
     }
-
-    .faq-container {
-        padding-top: 15px;
-        max-width: 100%;
-        margin: 15px;
-    }
-
+    
     .selection-card-container {
         display: grid;
         grid-template-columns: none;

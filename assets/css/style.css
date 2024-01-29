@@ -398,7 +398,7 @@ swiper-container {
 .project-card-container {
     padding-bottom: 25px;
     display: grid;
-    grid-template-columns: repeat(1, auto); 
+    grid-template-columns: repeat(1, auto);
 }
 
 .project-card {
