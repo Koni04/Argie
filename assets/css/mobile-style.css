@@ -226,12 +226,6 @@
     #click-btn {
         margin-bottom: 25px;
     }
-    
-    .selection-card-container {
-        display: grid;
-        grid-template-columns: none;
-        gap: 50px;
-    }
 }
 
 @media (min-width: 950px) {
