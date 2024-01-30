@@ -179,7 +179,7 @@ ul li a:hover::after {
 
 
 .about .info {
-    padding: auto;
+    padding: 20px;
     display: flex;
     max-width: 1000px;
     margin: auto;
@@ -251,6 +251,64 @@ swiper-container {
 
 .main-card h6 {
     font-size: 18px;
+}
+
+/* ---------------------------------- Project----------------------------------------- */
+
+.project h1 {
+    color: black;
+    margin-top: 40px;
+    letter-spacing: 5px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.project-container {
+    margin: 50px;
+}
+
+.project-card-container {
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, auto); 
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.project-card h4 {
+    padding-bottom: 25px;
+
+}
+
+.project-card p {
+    max-width: fit-content;
+}
+
+.project-card img {
+    object-fit: contain;
+    max-width: 100%;
+    min-height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.project button {
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px; 
+    cursor: pointer;
+    color: white;
+    background-color: blue
 }
 
 /* ---------------------------------- Testimonial ----------------------------------------- */
@@ -379,64 +437,6 @@ swiper-container {
 .service-card:hover {
     animation: 0.8s;
     transform: scale(1.05);
-}
-
-/* ---------------------------------- Project----------------------------------------- */
-
-.project h1 {
-    color: black;
-    margin-top: 40px;
-    letter-spacing: 5px;
-    font-size: 3em;
-    text-align: center;
-}
-
-.project-container {
-    margin: 50px;
-}
-
-.project-card-container {
-    padding-bottom: 25px;
-    display: grid;
-    grid-template-columns: repeat(1, auto); 
-}
-
-.project-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-}
-
-.project-card h4 {
-    padding-bottom: 25px;
-
-}
-
-.project-card p {
-    max-width: fit-content;
-}
-
-.project-card img {
-    object-fit: contain;
-    max-width: 100%;
-    min-height: 250px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-
-.project button {
-    height: 50px;
-    width: 150px;
-    border: 1px solid white;
-    border-radius: 10px; 
-    cursor: pointer;
-    color: white;
-    background-color: blue
 }
 
 /* ---------------------------------- Contact Us ----------------------------------------- */
