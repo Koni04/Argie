@@ -1,7 +1,7 @@
 /* dark-mode.css */
 
 body.dark-mode {
-    background-color: #121212;
+    background-color: #010101;
     color: #fff;
 }
 
@@ -11,12 +11,12 @@ body.dark-mode ul,
 body.dark-mode nav-ul,
 body.dark-mode #mySidenav,
 body.dark-mode a {
-    background-color: #121212;
+    background-color: #010101;
     color: #fff;
 }
 
 body.dark-mode a:hover {
-    background-color: #121212;
+    background-color: #010101;
     color: #fff;
 }
 
@@ -54,7 +54,7 @@ body.dark-mode .project-card,
 body.dark-mode #form
 body.dark-mode #contact-form,
 body.dark-mode #click-btn {
-    background-color: #121212;
+    background-color: #010101;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -80,7 +80,7 @@ body.dark-mode .back-to-Top img {
 }
 
 body.dark-mode footer {
-    background-color: #252525;
+    background-color: #010101;
     color: #fff;
 }
 
@@ -89,7 +89,7 @@ body.dark-mode #logo-name, span {
 }
 
 body.dark-mode #footer {
-    color: #888;/
+    color: #888;
 }
 
 .section {
@@ -115,7 +115,7 @@ body.dark-mode #footer {
 }
 
 body.dark-mode .section-bg {
-    background-color: #121212;
+    background-color: #010101;
 }
 
 body.dark-mode .section__header,
@@ -178,8 +178,8 @@ body.dark-mode .section__subtitle {
 }
 
 body.dark-mode .testimonial__card {
-    background-color: #121212;
-    box-shadow: 0 0 85px 0 #21232A;
+    background-color: #010101;
+    box-shadow: 0 0 85px 0 #010101;
     color: #fff;
 }
 
@@ -197,6 +197,6 @@ body.dark-mode .testimonial__wrapper .swiper-pagination-bullet-active {
 }
 
 body.dark-mode #toggle-mode {
-    background-color: #121212;
+    background-color: #010101;
     border: none;
 }
