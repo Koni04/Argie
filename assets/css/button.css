@@ -85,3 +85,38 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+
+.cvBtn {
+    color: rgb(25, 0, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgb(126, 131, 238);
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.cvBtn:hover {
+    color: white;
+}
+
+.cvBtn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: rgb(34, 97, 214);
+    z-index: -1;
+    transition: all 1s;
+}
+
+.cvBtn:hover::before {
+    width: 160%;
+}

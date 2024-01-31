@@ -52,8 +52,13 @@ body.dark-mode #toggle-menu {
 body.dark-mode .service-card,
 body.dark-mode .project-card,
 body.dark-mode #form
-body.dark-mode #contact-form,
+body.dark-mode #contact-form {
+    background-color: #010101;
+    color: #fff;
+}
+
 body.dark-mode #click-btn {
+    border: 2px solid white;
     background-color: #010101;
     color: #fff;
 }
@@ -84,7 +89,7 @@ body.dark-mode footer {
 }
 
 body.dark-mode #logo-name, span {
-    color: red;
+    color: rgb(25, 0, 255);
 }
 
 body.dark-mode #footer {

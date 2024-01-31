@@ -58,7 +58,7 @@ li a {
 
 li a span {
     font-size: 35px;
-    color: red;
+    color: rgb(25, 0, 255);
 }
 
 li a:hover {
@@ -78,7 +78,7 @@ li a::after {
 }
 
 ul li a:hover::after {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(25, 0, 255);
     width: 100%;
 }
 
@@ -149,21 +149,6 @@ ul li a:hover::after {
 
 .link a:hover {
     cursor: pointer;
-}
-
-#click-btn {
-    height: 50px;
-    width: 150px;
-    border: 1px solid black;
-    border-radius: 10px; 
-    cursor: pointer;
-    background-color: #fee6e3;
-    font-weight: 600;
-}
-
-#click-btn:hover {
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
 /* ----------------------------------About Us----------------------------------------- */
@@ -418,7 +403,6 @@ swiper-container {
 }
 
 .service-card {
-    border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;
     padding: 20px;
