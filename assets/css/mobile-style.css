@@ -194,6 +194,13 @@
     .project-container {
         margin: 15px;
     }
+
+    .project-card-container {
+        padding-bottom: 25px;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+    }
     
     /* ------------------------------------ Contact ------------------------------------------- */
 

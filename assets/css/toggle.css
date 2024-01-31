@@ -56,7 +56,6 @@ body.dark-mode #contact-form,
 body.dark-mode #click-btn {
     background-color: #010101;
     color: #fff;
-    border: 1px solid #fff;
 }
 
 body.dark-mode input,
