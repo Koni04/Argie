@@ -16,16 +16,6 @@ function E(n, f) {
     g.addEventListener(n, f, false);
 }
 
-function t(a) {
-    var f = 0;
-    if (a.detail) f = -a.detail / 3;
-    else f = a.wheelDelta / 120;
-    if (f > 0 && s < 1 || f < 0 && s + f / 25 > 0.1) s += f / 25;
-}
-
-E("DOMMouseScroll", t);
-E("mousewheel", t);
-
 function u(a) {
     a.x = (m() * d - d * 0.5) * p;
     a.y = (m() * e - e * 0.5) * p;
