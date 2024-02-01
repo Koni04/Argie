@@ -235,11 +235,19 @@
     }
 }
 
-@media (min-width: 950px) {
+/*------------------------------Desktop mode----------------------------------*/
+@media (min-width: 1200px) {
+
+    nav {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
     
     .session {
         grid-template-columns: repeat(2, auto);
         gap: 280px;
+        margin: 0 auto;
+        max-width: 1200px;
     }
 
     .left {
@@ -253,5 +261,14 @@
     .contact-message {
         width: 500px;
     }
-}
 
+    .project-container {
+        margin: 0 auto;
+        max-width: 1200px; 
+    }
+
+    .service-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}

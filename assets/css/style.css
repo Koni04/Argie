@@ -15,8 +15,8 @@ header {
     transition: 0.3s;
     z-index: 100;
     top: 0;
-    overflow: hidden;
     width: 100%;
+    overflow: hidden;
     position: fixed;
 }
 
@@ -27,6 +27,12 @@ header {
 }
 
 /* ---------------------------- Nav Bar -----------------------------------*/
+
+nav {
+    margin: 0 auto;
+    max-width: 1650px;
+}
+
 .closebtn {
     display: none;
 }
@@ -100,7 +106,7 @@ ul li a:hover::after {
 .home {
     padding: 200px 0 0 0;
     color: black;
-    min-height: 100vh;
+    padding-bottom: 150px;
 }
 
 .home h1 {
@@ -235,15 +241,15 @@ swiper-container {
 }
 
 .project-container {
-    margin: 0 50px;
-    padding: 15px;
+    margin: 50px;
 }
 
 .project-card-container {
     padding-top: 85px;
     padding-bottom: 25px;
     display: grid;
-    grid-template-columns: repeat(3, auto); 
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
 }
 
 .project-card {
