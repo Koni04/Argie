@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Space | My Loader</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/space.css">
+    </head>
+    <body>
+        <canvas></canvas>
+        <div class="container">
+            <h2>My Responsive Portfolio</h2>
+            <script>
+                var audio = new Audio('./assets/sound/universe.mp3');
+
+                function toggleSound() {
+                    var soundStatus = document.getElementById('soundStatus');
+
+                    if (audio.paused) {
+                        audio.play();
+                        soundStatus.innerText = 'ON';
+                    } else {
+                        audio.pause();
+                        soundStatus.innerText = 'OFF';
+                    }
+                }
+            </script>
+            <button class="btn" id="startButton">Start</button>
+        </div>
+        <div class="soundContainer">
+            <div class="soundHolder">RECOMMEND SOUND</div>
+            <div class="soundChange" onclick="toggleSound()">
+                <span id="soundStatus"> OFF</span>
+            </div>
+        </div>
+        <script src="./assets/js/space.js"></script>
+    </body>
+</html>
