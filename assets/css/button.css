@@ -8,8 +8,6 @@ button {
     text-decoration: none;
     background: transparent;
     padding: 0;
-    font-size: inherit;
-    font-family: inherit;
 }
 
 button.learn-more {
@@ -67,10 +65,7 @@ button.learn-more .button-text {
     padding: 0.75rem 0;
     margin: 0 0 0 1.85rem;
     color: #282936;
-    font-weight: 700;
-    line-height: 1.6;
     text-align: center;
-    text-transform: uppercase;
 }
 
 button:hover .circle {
@@ -87,13 +82,14 @@ button:hover .button-text {
 }
 
 .cvBtn {
+    font-family: 'Space Mission', sans-serif;
+    font-weight: 200;
+    letter-spacing: 5px;
     color: rgb(25, 0, 255);
-    text-transform: uppercase;
     text-decoration: none;
     border: 2px solid rgb(126, 131, 238);
     padding: 10px 20px;
     font-size: 17px;
-    font-weight: bold;
     background: transparent;
     position: relative;
     transition: all 1s;

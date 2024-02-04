@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/space-mission');
+
 * {                         
     margin: 0;
     padding: 0;
@@ -16,14 +18,14 @@ header {
     z-index: 100;
     top: 0;
     width: 100%;
-    overflow: hidden;
     position: fixed;
 }
 
 #logo-name {
     position: absolute;
-    font-size: 25px;
-    font-weight: 800;
+    font-family: 'SPACE MISSION', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* ---------------------------- Nav Bar -----------------------------------*/
@@ -36,7 +38,6 @@ nav {
 .closebtn {
     display: none;
 }
-
 
 .menu-button {
     visibility: hidden;
@@ -54,6 +55,8 @@ li {
 }
 
 li a {
+    font-family: 'SPACE MISSION', sans-serif;
+    font-style: normal;
     display: block;
     color: black;
     text-align: center;
@@ -89,6 +92,7 @@ ul li a:hover::after {
 }
 
 #toggle-mode {
+    margin-right: 15px;
     background: none;
     border: none;
 }
@@ -96,11 +100,12 @@ ul li a:hover::after {
 /* ---------------------------- Home -----------------------------------*/
 
 .container-home {
-    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 100px;
+    margin-left: 0;
+    margin-right: 0;
 }   
 
 .home {
@@ -110,21 +115,23 @@ ul li a:hover::after {
 }
 
 .home h1 {
-    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Space Mission', sans-serif;
+    font-weight: 200;
     padding-bottom: 5px;
-    border-radius: 10px;
+    font-size: 4rem;
 }
 
-.home h5, p{
+.home h5 {
+    padding-left: 5px;
+    font-family: 'Space Mission', sans-serif;
+    font-weight: 200;
     padding-bottom: 5px;
     margin-top: 0;
     margin-bottom: 1rem;
     max-width: 700px;
-    letter-spacing: 1px;
-}
-
-.home span {
-    color: black
+    letter-spacing: 3px;
+    font-size: 1.2rem;
 }
 
 .home #image-home {
@@ -133,6 +140,7 @@ ul li a:hover::after {
 }
 
 .link {
+    padding: 5px 0;
     display: inline-block;
     font-size: 25px;
     display: block;
@@ -146,14 +154,15 @@ ul li a:hover::after {
 /* ----------------------------------About Us----------------------------------------- */
 
 .about h1 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: black;
     margin-top: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     font-size: 3em;
     text-align: center;
-    padding-bottom: 100px;
 }
-
 
 .about .info {
     padding: 20px;
@@ -163,12 +172,42 @@ ul li a:hover::after {
     gap: 25px;
 }
 
-.about .about-info {
+.about img {
+    border-radius: 25px;
+}
+
+.info h5 {
+    font-size: 1.0rem;
+    font-family: "Space Mission", sans-serif;
+    font-weight: 100;
+    letter-spacing: 8px;
+    padding: 0 0 1.2rem 0;
+}
+
+.info .about-info {
+    padding: 0 0 1.2rem 0;
+    font-size: 0.2rem;
+    font-family: "Space Mission", sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
     display: flex;
     padding-top: 10px;
     max-width: 1000px;
     margin: auto;
     gap: 25px;
+}
+
+.about-info p {
+    font-size: small;
+    font-weight: 200;
+}
+
+.info h3 {
+    padding-left: 5px;
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    letter-spacing: 8px;
+    padding: 0 0 1.2rem 0;
 }
 
 .info-card-container {
@@ -193,55 +232,22 @@ ul li a:hover::after {
     border-radius: 10px;
 }
 
-.about img {
-    border-radius: 25px;
-}
-
-.about p {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-
-.aboutUs-main-card-container {
-    display: flex;
-}
-
-/* Swiper JS  */
-
-swiper-container {
-    width: 100%;
-}
-
-.main-card {
-    background-color: #fff;
-    box-shadow: 0 0 85px 0 #e9eefc;
-    border-radius: 10px;
-    margin: 100px;
-    padding: 100px;
-    text-align: center;
-}
-
-.main-card:hover{
-    cursor: pointer;
-}
-
-.main-card h6 {
-    font-size: 18px;
-}
-
 /* ---------------------------------- Project----------------------------------------- */
 
 .project h1 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     color: black;
-    margin-top: 50px;
-    letter-spacing: 5px;
-    font-size: 3em;
+    margin: 75px 0 0 0;
+    letter-spacing: 8px;
+    font-size: 3rem;
     text-align: center;
+    padding: 3rem 0 0 0;
 }
 
 .project-container {
-    margin: 50px;
+    margin: 50px auto;
 }
 
 .project-card-container {
@@ -262,12 +268,11 @@ swiper-container {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.project-card h4 {
-    padding-bottom: 25px;
-}
-
-.project-card p {
-    max-width: fit-content;
+.project-card h3 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 5px;
 }
 
 .project-card img {
@@ -277,6 +282,10 @@ swiper-container {
 }
 
 .description h5 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 5px;
     color: gray;
 }
 
@@ -288,90 +297,6 @@ swiper-container {
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-/* ---------------------------------- Testimonial ----------------------------------------- */
-
-.section {
-    margin-top: 50px;
-    padding: 5rem 0;
-}
-
-.section-bg {
-    background-color: #f6f8fe;
-}
-
-.section__header {
-    max-width: 50rem;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 5rem;
-}
-
-.section__title {
-    font-size: clamp(2.4rem, 5vw, 4.2rem);
-    margin: 0.5rem 0 1.5rem;
-}
-
-.section__subtitle {
-    font-weight: 700;
-    font-size: 1.6rem;
-}
-
-.testimonial__card {
-    background-color: #fff;
-    box-shadow: 0 0 85px 0 #e9eefc;
-    width: 100%;
-    max-width: 40rem;
-    justify-self: center;
-    border-radius: 1.5rem;
-    padding: 5rem 3rem;
-    position: relative;
-}
-
-.testimonial__card-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-
-.testimonial__img-wrapper {
-    width: 7rem;
-    height: 7rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.testimonial__img {
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-}
-
-.testimonial__name {
-    font-size: 1.6rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-/* Swiper Styles */
-.testimonial__wrapper .swiper-wrapper,
-.testimonial__wrapper .swiper-pagination-bullets {
-    padding-bottom: 5rem;
-    justify-content: space-around;
-}
-
-.testimonial__wrapper .swiper-pagination-bullet,
-.testimonial__wrapper .swiper-pagination-bullet-active {
-    background-color: #747474;
-    border-radius: 50%;
-    width: 0.8rem;
-    height: 0.8rem;
-    &-active {
-        background-color: lightseagreen;
-    }
-}
 
 /* ---------------------------------- Services ----------------------------------------- */
 
@@ -379,12 +304,15 @@ swiper-container {
     color: black;
     margin-top: 150px;
     letter-spacing: 5px;
-    font-size: 3em;
+    font-size: 4rem;
     text-align: center;
+    font-family: "Space Mission", sans-serif;
+    font-weight: 400;
 }
 
 .service-container {
     margin: 50px;
+    padding: 0 0 4rem 0;
 }
 
 .service-card-container {
@@ -395,6 +323,7 @@ swiper-container {
 }
 
 .service-card {
+    border: 2px solid #ccc;
     border-radius: 8px;
     margin: 10px;
     padding: 20px;
@@ -406,6 +335,21 @@ swiper-container {
     min-height: 350px;
     border-radius: 10px;
     object-fit: contain;
+}
+
+.service-card h4 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 0 0 10px 0;
+}
+
+.service-card p {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 5px;
 }
 
 .service-card:hover {
@@ -439,6 +383,21 @@ swiper-container {
     max-width: none;
 }
 
+.left .contact-message h4 {
+    font-family: "Space Mission", sans-serif;
+    font: 200;
+    font-size: 1.2rem;
+    border-bottom: #0056b3 2px solid; 
+    display: inline;
+}
+
+.left .contact-message p {
+    font-family: "Space Mission", sans-serif;
+    font: 200;
+    font-size: 1.0rem;
+    padding: 15px 0 0 0;
+}
+
 .contact-message p {
     color: #F1F1F1;
     text-align: left;
@@ -449,9 +408,25 @@ swiper-container {
     max-width: 600px;
     border-radius: 5px;
 }
+
+#form h4 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    border-bottom: #0056b3 2px solid; 
+    display: inline;
+}
+
+#form #contact-form {
+    margin: 15px auto;
+}
+
 label {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
     margin-left: 1px;
     color: #F1F1F1;
+    padding: 0 0 0 5px;
 }
 
 input[type="text"], textarea {
@@ -493,7 +468,10 @@ footer {
     color: black;
 }
 
-footer p {
+footer h6 {
+    font-family: "Space Mission", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
     text-align: center;
 }
 
