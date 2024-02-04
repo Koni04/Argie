@@ -18,6 +18,7 @@
 
                     if (audio.paused) {
                         audio.play();
+                        audio.loop = true;
                         soundStatus.innerText = 'ON';
                     } else {
                         audio.pause();
