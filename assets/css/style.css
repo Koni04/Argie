@@ -275,6 +275,7 @@ ul li a:hover::after {
     font-weight: 200;
     font-size: 15px;
     letter-spacing: 5px;
+    padding: 0 0 10px 0;
 }
 
 .project-card img {
@@ -292,6 +293,7 @@ ul li a:hover::after {
 }
 
 .description .tools {
+    padding: 5px;
     border-radius: 10px;
     margin: 5px;
     width: 100px;

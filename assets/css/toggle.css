@@ -208,3 +208,17 @@ body.dark-mode #toggle-mode {
     background-color: var(--primary-bg);
     border: none;
 }
+
+body.dark-mode .project-card .description {
+    border: 1px solid white;
+}
+
+body.dark-mode .description .tools {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
