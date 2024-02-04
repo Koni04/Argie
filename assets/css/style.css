@@ -108,6 +108,7 @@ ul li a:hover::after {
     gap: 100px;
     margin-left: 0;
     margin-right: 0;
+    padding: 50px;
 }   
 
 .home {
