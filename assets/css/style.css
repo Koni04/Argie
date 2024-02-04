@@ -19,6 +19,8 @@ header {
     top: 0;
     width: 100%;
     position: fixed;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
 
 #logo-name {
