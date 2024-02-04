@@ -1,6 +1,6 @@
 /*---------------------------------- For Mobile Phone ---------------------------------------- */
 /* Media query for viewport width 950px or below */
-@media (max-width: 950px) {
+@media (max-width: 970px) {
     
     /*----------------------------- Responsive Navbar -----------------------------------------*/
     header {
