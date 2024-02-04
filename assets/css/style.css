@@ -204,6 +204,7 @@ ul li a:hover::after {
 .about-info p {
     font-size: small;
     font-weight: 200;
+    padding-bottom: 25px;
 }
 
 .info h3 {
