@@ -228,6 +228,7 @@
     #home {
         min-height: 100%;
         padding-bottom: 15px;
+        margin: 10px;
     }
 
     #click-btn {
