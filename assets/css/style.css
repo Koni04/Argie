@@ -576,3 +576,13 @@ footer h6 {
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
 	}
 }
+
+/* ---------------------------- Responsive Arrorw-up --------------------------*/
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 5.25rem;
+    margin: 1.5rem auto;
+    background-color: #ffffff;
+    opacity: 1;
+}
