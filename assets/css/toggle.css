@@ -132,78 +132,6 @@ body.dark-mode .section__subtitle {
     color: #fff; 
 }
 
-.testimonial__card {
-    background-color: #fff;
-    box-shadow: 0 0 85px 0 #e9eefc;
-    width: 100%;
-    max-width: 40rem;
-    justify-self: center;
-    border-radius: 1.5rem;
-    padding: 5rem 3rem;
-    position: relative;
-}
-
-.testimonial__card-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-
-.testimonial__img-wrapper {
-    width: 7rem;
-    height: 7rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.testimonial__img {
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-}
-
-.testimonial__name {
-    font-size: 1.6rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-.testimonial__wrapper .swiper-wrapper,
-.testimonial__wrapper .swiper-pagination-bullets {
-    padding-bottom: 5rem;
-    justify-content: space-around;
-}
-
-.testimonial__wrapper .swiper-pagination-bullet,
-.testimonial__wrapper .swiper-pagination-bullet-active {
-    background-color: #747474;
-    border-radius: 50%;
-    width: 0.8rem;
-    height: 0.8rem;
-}
-
-body.dark-mode .testimonial__card {
-    background-color: var(--primary-bg);
-    box-shadow: 0 0 85px 0 #010101;
-    color: #fff;
-}
-
-body.dark-mode .testimonial__img-wrapper {
-    border: 2px solid #fff;
-}
-
-body.dark-mode .testimonial__name {
-    color: #fff;
-}
-
-body.dark-mode .testimonial__wrapper .swiper-pagination-bullet,
-body.dark-mode .testimonial__wrapper .swiper-pagination-bullet-active {
-    background-color: lightseagreen;
-}
-
 body.dark-mode #toggle-mode {
     background-color: var(--primary-bg);
     border: none;
@@ -216,9 +144,12 @@ body.dark-mode .project-card .description {
 body.dark-mode .description .tools {
     padding: 5px;
     border-radius: 10px;
-    border: 1px solid white;
     margin: 5px;
     width: 100px;
     height: 30px;
     text-align: center;
+}
+
+body.dark-mode .info-card-container .info-card {
+    border: none;
 }
