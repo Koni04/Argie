@@ -10,16 +10,13 @@ body.dark-mode {
 }
 
 body.dark-mode header,
-body.dark-mode nav,
-body.dark-mode ul,
-body.dark-mode nav-ul,
 body.dark-mode #mySidenav,
-body.dark-mode a {
+body.dark-mode #nav-ul li a {
     background-color: var(--primary-bg);
     color: #fff;
 }
 
-body.dark-mode a:hover {
+body.dark-mode #nav-ul li a:hover {
     background-color: var(--primary-bg);
     color: #fff;
 }
@@ -138,18 +135,20 @@ body.dark-mode #toggle-mode {
 }
 
 body.dark-mode .project-card .description {
-    border: 1px solid white;
-}
-
-body.dark-mode .description .tools {
-    padding: 5px;
-    border-radius: 10px;
-    margin: 5px;
-    width: 100px;
-    height: 30px;
-    text-align: center;
+    border: solid 0.1rem #f3f4f6;
 }
 
 body.dark-mode .info-card-container .info-card {
     border: none;
+}
+
+body.dark-mode .tools {
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    background-color: #5b5d60;
+    color: #f3eeee;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
 }

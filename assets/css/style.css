@@ -343,9 +343,10 @@ ul {
 }
 
 .tools {
+    font-family: 'Inter', sans-serif;
     display: inline-block;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #edeff2;
+    color: #545151;
     padding: 5px 10px;
     margin-right: 10px;
     border-radius: 5px;
@@ -370,7 +371,6 @@ a {
 }
 
 .service-container {
-    margin: 50px;
     padding: 0 0 4rem 0;
 }
 

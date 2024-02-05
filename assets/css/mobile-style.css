@@ -256,6 +256,12 @@
     #click-btn {
         margin-bottom: 25px;
     }
+
+    .service-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
 }
 
 /*------------------------------Desktop mode----------------------------------*/
@@ -294,7 +300,7 @@
         margin: 0 auto;
         max-width: 1200px;
     }
-
+    
     .info-card-container {
         margin: 0 auto;
         max-width: 1200px;
@@ -302,10 +308,23 @@
     }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 520px) {
     .info-card-container {
         margin: 0 auto;
         max-width: 1200px;
         grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width: 400px) {
+
+    .home #image-home {
+        display: none;
+    }
+
+    .info-card-container {
+        margin: 0 auto;
+        max-width: 1200px;
+        grid-template-columns: repeat(1, auto);
     }
 }
