@@ -301,3 +301,11 @@
         grid-template-columns: repeat(4, auto);
     }
 }
+
+@media (max-width: 399px) {
+    .info-card-container {
+        margin: 0 auto;
+        max-width: 1200px;
+        grid-template-columns: repeat(2, auto);
+    }
+}
