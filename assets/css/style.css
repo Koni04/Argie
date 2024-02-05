@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/space-mission');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');   
 
 * {                         
     margin: 0;
@@ -26,7 +26,7 @@ header {
 
 #logo-name {
     position: absolute;
-    font-family: 'SPACE MISSION', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -58,7 +58,7 @@ li {
 }
 
 li a {
-    font-family: 'SPACE MISSION', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     display: block;
     color: black;
@@ -75,7 +75,7 @@ li a span {
 
 li a:hover {
     transition: 0.2s;
-    transform: scale(1.2);
+    transform: scale(1);
 }
 
 li a::after {
@@ -119,16 +119,22 @@ ul li a:hover::after {
 }
 
 .home h1 {
-    padding-left: 10px;
-    font-family: 'Space Mission', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 200;
+    padding-bottom: 5px;
+    font-size: 4rem;
+}
+
+.home span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     padding-bottom: 5px;
     font-size: 4rem;
 }
 
 .home h5 {
     padding-left: 5px;
-    font-family: 'Space Mission', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 200;
     padding-bottom: 5px;
     margin-top: 0;
@@ -158,8 +164,8 @@ ul li a:hover::after {
 /* ----------------------------------About Us----------------------------------------- */
 
 .about h1 {
-    font-family: "Space Mission", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
     font-style: normal;
     color: black;
     margin-top: 150px;
@@ -181,9 +187,10 @@ ul li a:hover::after {
 }
 
 .info h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     font-size: 1.0rem;
     font-weight: 100;
-    letter-spacing: 8px;
     padding: 0 0 1.2rem 0;
 }
 
@@ -199,81 +206,106 @@ ul li a:hover::after {
 }
 
 .about-info p {
+    font-family: 'Inter', sans-serif;
     font-size: small;
     font-weight: 200;
     padding-bottom: 25px;
 }
+/* ---------------------------------- Skills ----------------------------------------- */
 
-.info h3 {
-    padding-left: 5px;
-    font-weight: 200;
+
+.skills h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+    margin-top: 150px;
     letter-spacing: 8px;
-    padding: 0 0 1.2rem 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+.skills h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: normal;
+    width: 85%;
+    margin: auto auto;
+    text-align: center;
+    padding-bottom: 2rem;
+    letter-spacing: 3px;
 }
 
 .info-card-container {
+    margin: auto auto;
+    text-align: center;
     padding-bottom: 25px;
     display: grid;
-    grid-template-columns: repeat(5 , auto);
-    justify-content: flex-start;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
 }
 
 .info-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 5px;
-    padding: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    width: 180px;
 }
 
 .info-card img {
+    width: 100%;
+    height: 75px;
     object-fit: contain;
-    max-width: 25px;
-    max-height: 25px;
     border-radius: 10px;
 }
+
+.info-card h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
 
 /* ---------------------------------- Project----------------------------------------- */
 
 .project h1 {
-    font-family: "Space Mission", sans-serif;
-    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
     font-style: normal;
     color: black;
-    margin: 75px 0 0 0;
+    margin-top: 150px;
     letter-spacing: 8px;
-    font-size: 3rem;
+    font-size: 3em;
     text-align: center;
-    padding: 3rem 0 0 0;
 }
 
 .project-container {
-    margin: 50px auto;
+    padding: 42px 32px auto;
+    margin: auto auto;
 }
 
 .project-card-container {
-    padding-top: 85px;
-    padding-bottom: 25px;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    padding-top: 15px;
     justify-content: center;
+    margin: auto auto;
 }
 
 .project-card {
-    margin: 0 10px;
-}
-
-.project-card .description {
     border-radius: 5px;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    margin-bottom: 50px;
 }
 
-.project-card h3 {
-    font-weight: 200;
-    font-size: 15px;
-    letter-spacing: 5px;
-    padding: 0 0 10px 0;
+.project-card .img-holder {
+    box-sizing: border-box;
+    padding: 4.8rem 25px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border: solid 0.1rem #f3f4f6;
+    background-color: #f9fafb;
 }
 
 .project-card img {
@@ -282,32 +314,57 @@ ul li a:hover::after {
     min-height: 250px;
 }
 
-.description h5 {
-    font-weight: 200;
-    font-size: 12px;
-    letter-spacing: 3px;
-    color: gray;
+.project-card .description {
+    box-sizing: border-box;
+    padding: 2.8rem 2.3rem 2.8rem 2.3rem;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.description .tools {
-    font-size: 12px;
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+.description h3, .description h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.description h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tools {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* ---------------------------------- Services ----------------------------------------- */
 
 .service h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     color: black;
     margin-top: 150px;
-    letter-spacing: 5px;
-    font-size: 4rem;
+    letter-spacing: 8px;
+    font-size: 3em;
     text-align: center;
-    font-family: "Space Mission", sans-serif;
-    font-weight: 400;
 }
 
 .service-container {
@@ -316,7 +373,6 @@ ul li a:hover::after {
 }
 
 .service-card-container {
-    padding-bottom: 25px;
     display: grid;
     grid-template-columns: repeat(3 , auto);
     justify-content: center;
@@ -338,16 +394,18 @@ ul li a:hover::after {
 }
 
 .service-card h4 {
-    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 3px;
     margin: 0 0 10px 0;
 }
 
 .service-card p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     font-weight: 200;
     font-size: 12px;
-    letter-spacing: 5px;
 }
 
 .service-card:hover {
@@ -382,20 +440,21 @@ ul li a:hover::after {
 }
 
 .left .contact-message h4 {
-    font-family: "Space Mission", sans-serif;
-    font-weight: 200;
-    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
     border-bottom: #0056b3 2px solid; 
     display: inline;
 }
 
 .left .contact-message p {
     font-weight: 200;
-    font-size: 1.2rem;
     padding: 15px 0 0 0;
 }
 
 .contact-message p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
     color: #F1F1F1;
     text-align: left;
     letter-spacing: 1px;
@@ -407,8 +466,8 @@ ul li a:hover::after {
 }
 
 #form h4 {
-    font-family: "Space Mission", sans-serif;
-    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     border-bottom: #0056b3 2px solid; 
     display: inline;
 }
@@ -465,7 +524,7 @@ footer {
 }
 
 footer h6 {
-    font-family: "Space Mission", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     text-align: center;

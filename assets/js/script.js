@@ -42,7 +42,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
         const section = document.querySelector(sectionID);
 
         let headerOffset = document.querySelector('header').offsetHeight;
-        let aosOffset = 85.5;
+        let aosOffset = 50.5;
 
         if (window.innerWidth < 950) {
             headerOffset = 0;

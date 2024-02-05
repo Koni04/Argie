@@ -142,9 +142,10 @@
 
     .info h5 {
         padding-top: 25px;
+        line-height: 35px;
     }
 
-    img {
+    .info img {
         width: 100%;
         max-width: 320px;
         height: auto;
@@ -191,17 +192,36 @@
         min-height: 200px;
     }
 
-    /* ------------------------------------ Project ------------------------------------------- */
+    /* ------------------------------------ Skills ------------------------------------------- */
 
-    .project-container {
-        margin: 15px;
+    .info-card-container {
+        margin: 0 auto;
+        max-width: 1200px;
+        grid-template-columns: repeat(3, auto);
     }
 
-    .project-card-container {
-        padding-bottom: 25px;
-        display: grid;
-        grid-template-columns: repeat(1, auto);
-        gap: 10px;
+    /* ------------------------------------ Project ------------------------------------------- */
+
+    .project h1 {
+        margin-top: 50px;
+        font-size: 2em;
+    }
+
+    .project-container {
+        padding: 20px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project-card .img-holder {
+        border-radius: 1.2rem 1.2rem 0 0;
+    }
+
+    .project-card .description {
+        padding: 1.5rem;
     }
     
     /* ------------------------------------ Contact ------------------------------------------- */
@@ -273,5 +293,11 @@
     .service-container {
         margin: 0 auto;
         max-width: 1200px;
+    }
+
+    .info-card-container {
+        margin: 0 auto;
+        max-width: 1200px;
+        grid-template-columns: repeat(4, auto);
     }
 }
