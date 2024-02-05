@@ -14,10 +14,6 @@ body {
 /* ---------------------------- Header -----------------------------------*/
 
 header {
-    /* Fix it - Bug */
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    background-color: rgba(255, 255, 255, 0.8);
     transition: 0.3s;
     z-index: 100;
     top: 0;
@@ -26,11 +22,10 @@ header {
 }
 
 #logo-name {
-    /* Fix it - Buggit  */
-    position: absolute; 
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: normal;
+    position: absolute;
 }
 
 /* ---------------------------- Nav Bar -----------------------------------*/
