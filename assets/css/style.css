@@ -475,6 +475,7 @@ a {
 }
 
 label {
+    font-family: 'Inter', sans-serif;
     font-weight: 200;
     font-size: 1.2rem;
     margin-left: 1px;
@@ -496,6 +497,7 @@ textarea {
 }
 
 input[type="button"] {
+    font-family: 'Inter', sans-serif;
     background-color: #007bff;
     color: white;
     border: none;
