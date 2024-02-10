@@ -1,10 +1,12 @@
-I'm sharing my web development journey through my responsive portfolio. It's not about showing off, just highlighting how far I've come.
+# My Responsive Portfolio
 
-## Portfolio Component
+Welcome to my journey in web development! This portfolio serves as a reflection of my progress and skills acquired along the way.
 
-- Home
-- about
-- Skill
-- Project
-- Service
-- Contact
+## Portfolio Components
+
+- [Home](#home)
+- [About](#about)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Services](#services)
+- [Contact](#contact)
