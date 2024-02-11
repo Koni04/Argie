@@ -257,12 +257,21 @@ ul li a:hover::after {
     border-radius: 10px;
 }
 
+.info-card img:hover + h4 {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
 .info-card h4 {
+    visibility: hidden;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-top: 15px;
+    opacity: 0;
+    transform: translateY(-10px);
 }
-
 
 /* ---------------------------------- Project----------------------------------------- */
 
