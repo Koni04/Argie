@@ -51,7 +51,8 @@
         top: 0;
         right: 5px;
         font-size: 45px;
-        margin-left: 50px;
+        padding-top: 10px;
+        margin-right: 10px;
     }
 
     .menu-button {
@@ -63,7 +64,6 @@
         color: black;
         font-size: 25px;
         cursor: pointer;
-        padding: auto 50 50 10;
         margin-right: 12px;
     }
 
@@ -83,18 +83,6 @@
 
     .login-btn {
         margin-right: 0;
-    }
-
-    .menu-button {
-        float: right;
-        background: none;
-        visibility: visible;
-        border: none;
-        color: black;
-        font-size: 25px;
-        cursor: pointer;
-        padding: auto 50 50 10;
-        margin-right: 12px;
     }
 
     nav ul{
