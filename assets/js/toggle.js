@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateDarkMode() {
         body.classList.add("transition");
-        body.classList.remove("dark-mode"); // Set dark mode by default themekj,h yt hr2e1dw1
+        body.classList.add("dark-mode"); // Set dark mode by default
         const isDarkMode = body.classList.contains("dark-mode");
         toggleImg.src = isDarkMode ? 'https://uploads-ssl.webflow.com/655cd88e6249ce66bb02cfbc/655da2e5d85dfa7bc6a65215_moon.svg' : 'https://assets-global.website-files.com/655cd88e6249ce66bb02cfbc/655d0474630f5c8d9e34d057_sun.svg';
     }

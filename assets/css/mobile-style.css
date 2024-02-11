@@ -36,14 +36,14 @@
     .sidenav a {
         text-decoration: none;
         font-size: 25px;
-        color: #FFF;
+        color: #000;
         display: block;
         transition: 0.3s;
         width: fit-content;
     }
     
     .sidenav a:hover {
-        color: #FFF;
+        color: #000;
     }
     
     .sidenav .closebtn {
