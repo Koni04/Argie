@@ -134,8 +134,18 @@ body.dark-mode #toggle-mode {
     border: none;
 }
 
+body.dark-mode .project-card .img-holder {
+    border: none;
+    background-color: #21232e;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 body.dark-mode .project-card .description {
-    border: solid 0.1rem #f3f4f6;
+    background-color: #111217;
+}
+
+body.dark-mode .project-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 body.dark-mode .info-card-container .info-card {
